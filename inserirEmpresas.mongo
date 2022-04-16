@@ -1,0 +1,13 @@
+db.estados.find().pretty()
+
+db.empresas.insert({
+    nome: "Bradesco",
+    estadoId: ObjectId("62535417e673f850dc908936")
+})
+
+db.empresas.insert({
+    nome: "Vale",
+    cidadeId: ObjectId("62535417e673f850dc908935")
+})
+
+db.empresas.find().pretty()
